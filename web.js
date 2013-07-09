@@ -1,6 +1,6 @@
 var express = require('express');
 var fs = require('fs');
-var buff = new buffer(256);
+var buff = new Buffer(256);
 var infile = "index.html";
 
 //buff = fs.readFileSync(infile);
