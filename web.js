@@ -1,7 +1,7 @@
 var express = require('express');
-var fs = require('fs');
-var buff = new Buffer(256);
-var infile = "index.html";
+//var fs = require('fs');
+//var buff = new Buffer(256);
+//var infile = "index.html";
 
 //buff = fs.readFileSync(infile);
 var app = express.createServer(express.logger());
